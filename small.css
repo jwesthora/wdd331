@@ -1,0 +1,117 @@
+main h2 a,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+
+header h1 a {
+    font-family: 'Lora', serif;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+figure img {
+    align-items: center;
+}
+
+nav ul li a {
+    color: #666;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul {
+    list-style-type: none;
+    flex-direction: row;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    border-bottom: 2px solid #d0d0d0;
+    border-top: 2px solid #d0d0d0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+
+}
+
+.post-content2 {
+    display: none;
+}
+
+.post-date2 {
+    display: none;
+}
+
+.post-content1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.post-content1 p,
+.post-content1 h2 {
+    text-align: center;
+}
+
+nav a:link,
+nav a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00ddff;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #DEB887;
+    text-decoration: none;
+}
+
+.post-date1 {
+    padding: 10px;
+    font-size: 30px;
+    text-align: right;
+    border: none;
+    border-bottom: 2px solid #d0d0d0;
+}
+
+a {
+    color: #666;
+}
+
+
+
+/*
+use #d0d0d0 for the light grey color of the lines.
+Navigation links should behave thus: normal and visited: #666 and no underline
+ , active: #DEB887, hover: #00ddff
+ exception would be the title of the site. 
+ It should be a link, but should not have a hover
+  change and should remain the same color of the rest of the text (#333)*/
+
+@media only screen and (max-width: 460px) {}
