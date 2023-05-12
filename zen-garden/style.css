@@ -1,0 +1,25 @@
+h1, h3 {
+  font-family: "Comfortaa", cursive;
+  color: #DB6C0F;
+  margin: 0;
+}
+
+h2, p {
+  font-family: "League Spartan", sans-serif;
+  color: #F0E3C0;
+}
+
+html {
+  background-color: #0D1F30;
+  padding: 2rem;
+}
+
+h1 {
+  font-weight: 315;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #DB6C0F;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

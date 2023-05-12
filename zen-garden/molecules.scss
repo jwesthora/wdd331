@@ -1,0 +1,7 @@
+@use 'variables' as *;
+@use 'atoms';
+h1 {
+    @include atoms.title-uppercase($accent1);
+    padding: 1rem;
+  }
+  

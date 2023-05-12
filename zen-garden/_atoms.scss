@@ -1,0 +1,30 @@
+@use 'variables' as *;
+@mixin set-head-font($header-size: 30rem, $line-height: normal, $heading-font: $fonts-header) {
+    font-family: $heading-font;
+    font-size: $header-size;
+    line-height: $line-height;
+  }
+  @mixin title-uppercase($color: $accent1) {
+    font-weight: 315;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $accent1;
+  }
+  @mixin set-body-font($header-size: 10rem, $line-height: normal, $body-font: $fonts-body) {
+    font-family: $fonts-header;
+    font-size: $header-size;
+    line-height: $line-height;
+  }
+  h1, h3{
+  font-family: $fonts-header;
+  color: $accent1;
+  margin: 0;
+}
+h2, p {
+    font-family: $fonts-body;
+    color: $text-color;
+}
+html {
+    background-color: $background-color;
+    padding: 2rem;
+  }
